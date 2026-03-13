@@ -29,6 +29,29 @@ export const metadata: Metadata = {
       { url: "/apple-touch-icon.png", sizes: "180x180" },
     ],
   },
+  openGraph: {
+    title: "Pokemon Emoji Combos for Instagram Notes | PokeNote",
+    description:
+      "Copy Pokemon emoji combos that summon Pokemon in Instagram Notes.",
+    url: "https://pokenote.vercel.app",
+    siteName: "PokeNote",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "PokeNote website preview",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Pokemon Emoji Combos for Instagram Notes | PokeNote",
+    description:
+      "Copy Pokemon emoji combos that summon Pokemon in Instagram Notes.",
+    images: ["/og-image.png"],
+  },
   manifest: "/site.webmanifest",
 }
 
