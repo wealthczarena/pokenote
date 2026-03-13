@@ -16,8 +16,8 @@ const vt323 = VT323({
 });
 
 export const metadata: Metadata = {
-  title: 'PokeNote - Copy Pokemon Emoji Combos',
-  description: 'Copy Pokemon emoji combos for your Instagram Notes!',
+  title: 'Pokemon Emoji Combos for Instagram Notes | PokeNote',
+  description: 'Copy Pokemon emoji combos that summon Pokemon in Instagram Notes. Click a Pokemon and paste the combo into your IG Note.',
   generator: 'v0.app',
   icons: {
     icon: [

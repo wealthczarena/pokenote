@@ -101,6 +101,16 @@ export default function PokeNotePage() {
             Click a Pokemon to copy the combo!
           </p>
         </div>
+
+        {/* SEO text */}
+        <section className="sr-only">
+          <h2>Pokemon Emoji Combos for Instagram Notes</h2>
+          <p>
+            Copy Pokemon emoji combos for your Instagram Notes. Select a Pokemon,
+            copy the emoji combination, and paste it into your Instagram Note to
+            summon Pikachu, Charizard, Charmander, Gengar and more.
+          </p>
+        </section>
       </div>
 
       {/* Footer */}
