@@ -2,7 +2,7 @@ import { ArrowUpRight } from "lucide-react"
 
 export function Footer() {
   return (
-    <footer className="relative z-10 mt-8">
+    <footer className="fixed bottom-0 left-0 right-0 z-30">
       <div className="bg-black/50 backdrop-blur-sm border-t-2 border-white/20">
         {/* Desktop layout - 3 zones */}
         <div className="hidden sm:flex items-center justify-between px-6 py-3">
@@ -33,7 +33,7 @@ export function Footer() {
           {/* Right zone - Pokemon count */}
           <div className="flex items-center gap-2 text-sm text-white/80">
             <span className="text-amber-300">21</span>
-            <span>Pokémon ready</span>
+            <span>Combos</span>
           </div>
         </div>
 
