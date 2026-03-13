@@ -28,7 +28,7 @@ export function MusicToggle() {
     <>
       <audio
         ref={audioRef}
-        src="/audio/pokemon-yellow.mp3"
+        src="/audio/pokemon-pallet_town.mp3"
         loop
         preload="auto"
       />
