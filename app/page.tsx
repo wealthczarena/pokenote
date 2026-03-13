@@ -96,11 +96,14 @@ export default function PokeNotePage() {
         <PokemonGrid onPokemonClick={handlePokemonClick} />
 
         {/* Instructions */}
-        <div className="mt-8 sm:mt-6 md:mt-8 bg-card/90 border-3 sm:border-4 border-border rounded-lg px-4 sm:px-6 py-2 sm:py-3 shadow-[3px_3px_0_0_rgba(0,0,0,0.3)] sm:shadow-[4px_4px_0_0_rgba(0,0,0,0.3)]">
+        <div className="mt-4 sm:mt-6 md:mt-8 bg-card/90 border-3 sm:border-4 border-border rounded-lg px-4 sm:px-6 py-2 sm:py-3 shadow-[3px_3px_0_0_rgba(0,0,0,0.3)] sm:shadow-[4px_4px_0_0_rgba(0,0,0,0.3)]">
           <p className="text-card-foreground text-center text-xs sm:text-sm md:text-base">
             Click a Pokemon to copy the combo!
           </p>
         </div>
+        
+        {/* Spacing Fix */}
+        <div className="h-6 sm:h-0" />
 
         {/* SEO text */}
         <section className="sr-only">
