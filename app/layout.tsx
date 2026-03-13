@@ -16,6 +16,7 @@ const vt323 = VT323({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://pokenote.vercel.app"),
   title: 'Pokemon Emoji Combos for Instagram Notes | PokeNote',
   description: 'Copy Pokemon emoji combos that summon Pokemon in Instagram Notes. Click a Pokemon and paste the combo into your IG Note.',
   generator: 'v0.app',
